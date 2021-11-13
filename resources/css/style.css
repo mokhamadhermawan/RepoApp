@@ -1,0 +1,42 @@
+.icon-add {
+    background-image: url(../icons/add.png);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+}
+.icon-edit {
+    background-image: url(../icons/pencil.png);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+}
+.icon-delete {
+    background-image: url(../icons/band-aid.png);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+}
+.space {
+    margin: 0 3px 0 3px;
+}
+
+/* Table */
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #01579B;
+  color: white;
+}
